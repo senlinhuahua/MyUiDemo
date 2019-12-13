@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:drawable="@drawable/ic_head2"
+    tools:targetApi="lollipop">
+
+
+    <!-- 指定动画 -->
+    <target
+        android:animation="@animator/anim_searchbar"
+        android:name="arc2"/>
+</animated-vector>

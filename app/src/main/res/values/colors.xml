@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+    <color name="black">#000000</color>
+
+    <color name="zhongzheng">#CD69C9</color>
+    <color name="tejihuli">#CD3700</color>
+    <color name="yijihuli">#FF4500</color>
+    <color name="erjihuli">#FFC125</color>
+    <color name="sanjihuli">#4876FF</color>
+    <color name="xinshenger">#66CD00</color>
+</resources>

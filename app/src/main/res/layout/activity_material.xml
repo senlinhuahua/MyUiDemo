@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tooltipText="Hello World"
+        app:navigationIcon="@mipmap/ic_launcher"
+        app:title="Forest"
+        app:subtitle="小标题">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hhhhhaaaa"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:id="@+id/bottom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="被观察者"
+        android:layout_gravity="center"/>
+
+    <TextView
+        app:layout_behavior=".materialdesign.FollowBehavier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="观察者"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
